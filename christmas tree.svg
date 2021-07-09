@@ -1,0 +1,10 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <g id="tree">
+  <title>Layer 1</title>
+  <polygon id="bottom" fill="#234236" points="100,100 180,220 20,220"/>
+  <polygon points="100,60 160,160 40,160" fill="#0c5c4c" id="mid"/>
+  <polygon id="top" fill="#38755b" points="100,20 140,100 60,100"/>
+  <rect x="80" y="220" width="40" height="30" fill="brown" id="trunk"/>
+ </g>
+
+</svg>
