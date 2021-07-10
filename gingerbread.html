@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<title>Gingerbread Man</title>
+<head>
+<style type="text/css">
+.gingerbread .body
+{
+   fill: #cd803d;
+}
+.gingerbread .eye
+{
+   fill: white;
+}
+.gingerbread .mouth
+{
+   fill: none;
+   stroke: white;
+   stroke-width: 2px;
+}
+.gingerbread .limb
+{
+   stroke: #cd803d;
+   stroke-width: 35px;
+   stroke-linecap: round;
+}
+</style>
+</head>
+<body>
+<svg class="gingerbread" width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+ <g id="gingerbread">
+  <title>Layer 1</title>
+  <circle r="30" cy="50" cx="100" class="body" id="head"/>
+  <circle id="r_eye" class="eye" cx="88" cy="45" r="3"/>
+  <circle cx="112" cy="45" r="3" class="eye" id="l_eye"/>
+  <rect id="mouth" class="mouth" x="90" y="60" width="20" height="5" rx="2"/>
+  <line id="arms" class="limb" x1="60" y1="90" x2="140" y2="90"/>
+  <line id="r_leg" class="limb" x1="75" y1="150" x2="100" y2="85"/>
+  <line id="l_leg" class="limb" x1="125" y1="150" x2="100" y2="85"/>
+  <circle id="button_1" class="button" cx="100" cy="90" r="5"/>
+  <circle id="button_2" class="button" cx="100" r="5" cy="110"/>
+ </g>
+
+</svg>
+</body>
+</html>
